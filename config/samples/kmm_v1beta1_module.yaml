@@ -1,0 +1,12 @@
+apiVersion: kmm.eze-test.rh/v1beta1
+kind: Module
+metadata:
+  labels:
+    app.kubernetes.io/name: module
+    app.kubernetes.io/instance: module-sample
+    app.kubernetes.io/part-of: new-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: new-operator
+  name: module-sample
+spec:
+  # TODO(user): Add fields here
