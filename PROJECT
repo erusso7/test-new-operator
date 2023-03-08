@@ -1,0 +1,9 @@
+domain: eze-test.rh
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: new-operator
+repo: github.com/erusso7/eze-operator-test.git
+version: "3"
